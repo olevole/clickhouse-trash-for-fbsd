@@ -1,0 +1,4 @@
+PRAGMA foreign_keys=OFF;
+BEGIN TRANSACTION;
+CREATE TABLE modulelist ( vendor TEXT, project TEXT, name TEXT, url TEXT, path TEXT, rev TEXT );
+COMMIT;

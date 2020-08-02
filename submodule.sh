@@ -7,7 +7,7 @@
 #
 # git clone https://github.com/ClickHouse/ClickHouse.git
 # cd ClickHouse
-# git submodule update --init --recursive 2>&1 > output.txt
+# git submodule update --init --recursive 2>&1 |tee -a output.txt
 # cp output.txt into current dir
 # ./submodule.sh > out.txt
 # cat out.txt

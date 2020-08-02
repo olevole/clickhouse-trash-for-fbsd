@@ -127,10 +127,12 @@ all_stuff=$( sqlite3 base.sqlite "SELECT vendor,project,name,url,path,rev FROM m
 # google:flatbuffers:bf9eb67:google_flatbuffers/contrib/flatbuffers \
 # ClickHouse-Extras:grpc:c1d1765:ClickHouse_Extras_grpc/contrib/grpc \
 
-echo "GH_TUPLE=		\\"
+echo "GH_TUPLE=	\\"
 
 for pair in  ${all_stuff}; do
 	sqllist "${pair}" vendor project name url path rev
 	venproj=$( echo "${vendor}_${project}" | tr "-" "_" )
-	echo "		${vendor}:${project}:${rev}:${venproj}/${path}	\\"
+	echo "		${vendor}:${project}:${rev}:${venproj}/${path} \\"
 done
+
+rm -f base.sqlite

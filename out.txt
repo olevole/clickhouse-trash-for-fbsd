@@ -1,92 +1,77 @@
 GH_TUPLE=		\
-apache:arrow:b789226:apache_arrowcontrib/arrow	\
-ClickHouse-Extras:avro:6cfcf6c:ClickHouse_Extras_avrocontrib/avro	\
-aws:aws-sdk-cpp:45dd855:aws_aws_sdk_cppcontrib/aws	\
-awslabs:aws-c-common:736a82d:awslabs_aws_c_commoncontrib/aws-c-common	\
-awslabs:aws-c-event-stream:3bc3366:awslabs_aws_c_event_streamcontrib/aws-c-event-stream	\
-awslabs:aws-checksums:519d6d9:awslabs_aws_checksumscontrib/aws-checksums	\
-powturbo:Turbo-Base64:95ba56a:powturbo_Turbo_Base64contrib/base64	\
-ClickHouse-Extras:boost:86be2ae:ClickHouse_Extras_boostcontrib/boost	\
-google:brotli:5805f99:google_brotlicontrib/brotli	\
-capnproto:capnproto:a00ccd9:capnproto_capnprotocontrib/capnproto	\
-ClickHouse-Extras:cctz:7a2db4e:ClickHouse_Extras_cctzcontrib/cctz	\
-ClickHouse-Extras:cppkafka:9b184d8:ClickHouse_Extras_cppkafkacontrib/cppkafka	\
-curl:curl:3b8bbbb:curl_curlcontrib/curl	\
-google:double-conversion:cf2f0f3:google_double_conversioncontrib/double-conversion	\
-ClickHouse-Extras:fastops:88752a5:ClickHouse_Extras_fastopscontrib/fastops	\
-google:flatbuffers:bf9eb67:google_flatbufferscontrib/flatbuffers	\
-google:googletest:703bd9c:google_googletestcontrib/googletest	\
-ClickHouse-Extras:grpc:c1d1765:ClickHouse_Extras_grpccontrib/grpc	\
-uber:h3:6cfd649:uber_h3contrib/h3	\
-ClickHouse-Extras:hyperscan:3058c9c:ClickHouse_Extras_hyperscancontrib/hyperscan	\
-unicode-org:icu:faa2f9f:unicode_org_icucontrib/icu	\
-ClickHouse-Extras:icudata:f020820:ClickHouse_Extras_icudatacontrib/icudata	\
-jemalloc:jemalloc:cd2931a:jemalloc_jemalloccontrib/jemalloc	\
-ClickHouse-Extras:libc-headers:92c74f9:ClickHouse_Extras_libc_headerscontrib/libc-headers	\
-ClickHouse-Extras:libcxx:9f71e12:ClickHouse_Extras_libcxxcontrib/libcxx	\
-ClickHouse-Extras:libcxxabi:1ebc83a:ClickHouse_Extras_libcxxabicontrib/libcxxabi	\
-ClickHouse-Extras:libgsasl:140fb58:ClickHouse_Extras_libgsaslcontrib/libgsasl	\
-ClickHouse-Extras:libhdfs3:e2131aa:ClickHouse_Extras_libhdfs3contrib/libhdfs3	\
-edenhill:librdkafka:4ffe54b:edenhill_librdkafkacontrib/librdkafka	\
-ClickHouse-Extras:libunwind:ede0062:ClickHouse_Extras_libunwindcontrib/libunwind	\
-GNOME:libxml2:18890f4:GNOME_libxml2contrib/libxml2	\
-ClickHouse-Extras:llvm:3d6c7e9:ClickHouse_Extras_llvmcontrib/llvm	\
-lz4:lz4:3d67671:lz4_lz4contrib/lz4	\
-ClickHouse-Extras:mariadb-connector-c:3f512fe:ClickHouse_Extras_mariadb_connector_ccontrib/mariadb-connector-c	\
-msgpack:msgpack-c:4668426:msgpack_msgpack_ccontrib/msgpack-c	\
-ClickHouse-Extras:openssl:07e9623:ClickHouse_Extras_opensslcontrib/openssl	\
-apache:orc:5981208:apache_orccontrib/orc	\
-ClickHouse-Extras:poco:7d605a1:ClickHouse_Extras_pococontrib/poco	\
-ClickHouse-Extras:protobuf:d6a10dd:ClickHouse_Extras_protobufcontrib/protobuf	\
-Tencent:rapidjson:8f4c021:Tencent_rapidjsoncontrib/rapidjson	\
-google:re2:7cf8b88:google_re2contrib/re2	\
-ClickHouse-Extras:replxx:f133262:ClickHouse_Extras_replxxcontrib/replxx	\
-ClickHouse-Extras:ryu:5b4a853:ClickHouse_Extras_ryucontrib/ryu	\
-lemire:simdjson:560f074:lemire_simdjsoncontrib/simdjson	\
-google:snappy:3f194ac:google_snappycontrib/snappy	\
-sparsehash:sparsehash-c11:cf0bffa:sparsehash_sparsehash_c11contrib/sparsehash-c11	\
-apache:thrift:010ccf0:apache_thriftcontrib/thrift	\
-ClickHouse-Extras:UnixODBC:b0ad30f:ClickHouse_Extras_UnixODBCcontrib/unixodbc	\
-ClickHouse-Extras:zlib-ng:bba56a7:ClickHouse_Extras_zlib_ngcontrib/zlib-ng	\
-facebook:zstd:2555975:facebook_zstdcontrib/zstd	\
-feathericons:feather:dca4f12:feathericons_featherwebsite/images/feathericons	\
-apache:parquet-testing:46c9e97:apache_parquet_testingcontrib/arrow/cpp/submodules/parquet-testing	\
-apache:arrow-testing:93f33ae:apache_arrow_testingcontrib/arrow/testing	\
-hillbig:esaxx:ca7cb33:hillbig_esaxxcontrib/brotli/research/esaxx	\
-y-256:libdivsufsort:5f60d6f:y_256_libdivsufsortcontrib/brotli/research/libdivsufsort	\
-catchorg:Catch2:d2d8455:catchorg_Catch2contrib/cppkafka/third_party/Catch2	\
-abseil:abseil-cpp:74d9175:abseil_abseil_cppcontrib/grpc/third_party/abseil-cpp	\
-google:benchmark:090faec:google_benchmarkcontrib/grpc/third_party/benchmark	\
-google:bloaty:73594cd:google_bloatycontrib/grpc/third_party/bloaty	\
-google:boringssl:7f02881:google_boringsslcontrib/grpc/third_party/boringssl	\
-google:boringssl:83da28a:google_boringsslcontrib/grpc/third_party/boringssl-with-bazel	\
-c-ares:c-ares:e982924:c_ares_c_arescontrib/grpc/third_party/cares/cares	\
-envoyproxy:data-plane-api:c181f78:envoyproxy_data_plane_apicontrib/grpc/third_party/envoy-api	\
-gflags:gflags:28f50e0:gflags_gflagscontrib/grpc/third_party/gflags	\
-googleapis:googleapis:80ed4d0:googleapis_googleapiscontrib/grpc/third_party/googleapis	\
-google:googletest:c9ccac7:google_googletestcontrib/grpc/third_party/googletest	\
-google:protobuf:0974557:google_protobufcontrib/grpc/third_party/protobuf	\
-envoyproxy:protoc-gen-validate:e143189:envoyproxy_protoc_gen_validatecontrib/grpc/third_party/protoc-gen-validate	\
-cncf:udpa:9432480:cncf_udpacontrib/grpc/third_party/udpa	\
-madler:zlib:cacf7f1:madler_zlibcontrib/grpc/third_party/zlib	\
-google:googletest:a2b8a8e:google_googletestcontrib/grpc/third_party/bloaty/third_party/googletest	\
-chromium:llvm-project:1b543d6:chromium_llvm_projectcontrib/grpc/third_party/bloaty/third_party/libFuzzer	\
-google:re2:c964d9b:google_re2contrib/grpc/third_party/bloaty/third_party/re2	\
-gflags:gflags:8411df7:gflags_gflagscontrib/grpc/third_party/gflags/doc	\
-google:benchmark:5b7683f:google_benchmarkcontrib/grpc/third_party/protobuf/third_party/benchmark	\
-google:googletest:5ec7f0c:google_googletestcontrib/grpc/third_party/protobuf/third_party/googletest	\
-boostorg:predef:560ff52:boostorg_predefcontrib/msgpack-c/external/boost/predef	\
-boostorg:preprocessor:56090c5:boostorg_preprocessorcontrib/msgpack-c/external/boost/preprocessor	\
-google:googletest:ba96d0b:google_googletestcontrib/rapidjson/thirdparty/gtest	\
-google:benchmark:8982e1e:google_benchmarkcontrib/simdjson/dependencies/benchmark	\
-DaveGamble:cJSON:c69134d:DaveGamble_cJSONcontrib/simdjson/dependencies/cJSON	\
-mikeando:fastjson:485f994:mikeando_fastjsoncontrib/simdjson/dependencies/fastjson	\
-vivkin:gason:7aee524:vivkin_gasoncontrib/simdjson/dependencies/gason	\
-zserge:jsmn:18e9fe4:zserge_jsmncontrib/simdjson/dependencies/jsmn	\
-nlohmann:json:a015b78:nlohmann_jsoncontrib/simdjson/dependencies/json	\
-dropbox:json11:ec4e452:dropbox_json11contrib/simdjson/dependencies/json11	\
-open-source-parsers:jsoncpp:0c1cc6e:open_source_parsers_jsoncppcontrib/simdjson/dependencies/jsoncpp	\
-Tencent:rapidjson:b32cd94:Tencent_rapidjsoncontrib/simdjson/dependencies/rapidjson	\
-chadaustin:sajson:2dcfd35:chadaustin_sajsoncontrib/simdjson/dependencies/sajson	\
-esnme:ujson4c:e14f3fd:esnme_ujson4ccontrib/simdjson/dependencies/ujson4c	\
-google:googletest:0a43962:google_googletestcontrib/simdjson/dependencies/rapidjson/thirdparty/gtest	\
+		apache:arrow:b789226:apache_arrow/contrib/arrow	\
+		ClickHouse-Extras:avro:6cfcf6c:ClickHouse_Extras_avro/contrib/avro	\
+		ClickHouse-Extras:aws-sdk-cpp:17e10c0:ClickHouse_Extras_aws_sdk_cpp/contrib/aws	\
+		ClickHouse-Extras:aws-c-common:736a82d:ClickHouse_Extras_aws_c_common/contrib/aws-c-common	\
+		ClickHouse-Extras:aws-c-event-stream:3bc3366:ClickHouse_Extras_aws_c_event_stream/contrib/aws-c-event-stream	\
+		ClickHouse-Extras:aws-checksums:519d6d9:ClickHouse_Extras_aws_checksums/contrib/aws-checksums	\
+		powturbo:Turbo-Base64:95ba56a:powturbo_Turbo_Base64/contrib/base64	\
+		ClickHouse-Extras:boost:a04e72c:ClickHouse_Extras_boost/contrib/boost	\
+		google:brotli:5805f99:google_brotli/contrib/brotli	\
+		capnproto:capnproto:a00ccd9:capnproto_capnproto/contrib/capnproto	\
+		ClickHouse-Extras:cpp-driver:a49b4e0:ClickHouse_Extras_cpp_driver/contrib/cassandra	\
+		ClickHouse-Extras:cctz:7a2db4e:ClickHouse_Extras_cctz/contrib/cctz	\
+		ClickHouse-Extras:cppkafka:f555ee3:ClickHouse_Extras_cppkafka/contrib/cppkafka	\
+		curl:curl:3b8bbbb:curl_curl/contrib/curl	\
+		google:double-conversion:cf2f0f3:google_double_conversion/contrib/double-conversion	\
+		ClickHouse-Extras:fastops:88752a5:ClickHouse_Extras_fastops/contrib/fastops	\
+		google:flatbuffers:bf9eb67:google_flatbuffers/contrib/flatbuffers	\
+		fmtlib:fmt:297c3b2:fmtlib_fmt/contrib/fmtlib	\
+		google:googletest:703bd9c:google_googletest/contrib/googletest	\
+		ClickHouse-Extras:grpc:8aea4e1:ClickHouse_Extras_grpc/contrib/grpc	\
+		uber:h3:6cfd649:uber_h3/contrib/h3	\
+		ClickHouse-Extras:hyperscan:3907fd0:ClickHouse_Extras_hyperscan/contrib/hyperscan	\
+		unicode-org:icu:faa2f9f:unicode_org_icu/contrib/icu	\
+		ClickHouse-Extras:icudata:f020820:ClickHouse_Extras_icudata/contrib/icudata	\
+		jemalloc:jemalloc:ea6b3e9:jemalloc_jemalloc/contrib/jemalloc	\
+		ClickHouse-Extras:libc-headers:92c74f9:ClickHouse_Extras_libc_headers/contrib/libc-headers	\
+		ClickHouse-Extras:libcpuid:8db3b8d:ClickHouse_Extras_libcpuid/contrib/libcpuid	\
+		ClickHouse-Extras:libcxx:9f71e12:ClickHouse_Extras_libcxx/contrib/libcxx	\
+		ClickHouse-Extras:libcxxabi:1ebc83a:ClickHouse_Extras_libcxxabi/contrib/libcxxabi	\
+		ClickHouse-Extras:libgsasl:140fb58:ClickHouse_Extras_libgsasl/contrib/libgsasl	\
+		ClickHouse-Extras:libhdfs3:e2131aa:ClickHouse_Extras_libhdfs3/contrib/libhdfs3	\
+		edenhill:librdkafka:b0d91bd:edenhill_librdkafka/contrib/librdkafka	\
+		ClickHouse-Extras:libunwind:27026ef:ClickHouse_Extras_libunwind/contrib/libunwind	\
+		ClickHouse-Extras:libuv:8443830:ClickHouse_Extras_libuv/contrib/libuv	\
+		GNOME:libxml2:18890f4:GNOME_libxml2/contrib/libxml2	\
+		ClickHouse-Extras:llvm:3d6c7e9:ClickHouse_Extras_llvm/contrib/llvm	\
+		lz4:lz4:f39b79f:lz4_lz4/contrib/lz4	\
+		ClickHouse-Extras:mariadb-connector-c:3f512fe:ClickHouse_Extras_mariadb_connector_c/contrib/mariadb-connector-c	\
+		msgpack:msgpack-c:4668426:msgpack_msgpack_c/contrib/msgpack-c	\
+		openldap:openldap:34b9ba9:openldap_openldap/contrib/openldap	\
+		ClickHouse-Extras:openssl:07e9623:ClickHouse_Extras_openssl/contrib/openssl	\
+		apache:orc:5981208:apache_orc/contrib/orc	\
+		ClickHouse-Extras:poco:be2ab90:ClickHouse_Extras_poco/contrib/poco	\
+		ClickHouse-Extras:protobuf:d6a10dd:ClickHouse_Extras_protobuf/contrib/protobuf	\
+		Tencent:rapidjson:8f4c021:Tencent_rapidjson/contrib/rapidjson	\
+		google:re2:7cf8b88:google_re2/contrib/re2	\
+		ClickHouse-Extras:replxx:2d37daa:ClickHouse_Extras_replxx/contrib/replxx	\
+		ClickHouse-Extras:ryu:5b4a853:ClickHouse_Extras_ryu/contrib/ryu	\
+		lemire:simdjson:560f074:lemire_simdjson/contrib/simdjson	\
+		google:snappy:3f194ac:google_snappy/contrib/snappy	\
+		sparsehash:sparsehash-c11:cf0bffa:sparsehash_sparsehash_c11/contrib/sparsehash-c11	\
+		apache:thrift:010ccf0:apache_thrift/contrib/thrift	\
+		ClickHouse-Extras:UnixODBC:b0ad30f:ClickHouse_Extras_UnixODBC/contrib/unixodbc	\
+		ClickHouse-Extras:zlib-ng:bba56a7:ClickHouse_Extras_zlib_ng/contrib/zlib-ng	\
+		facebook:zstd:10f0e69:facebook_zstd/contrib/zstd	\
+		apache:parquet-testing:46c9e97:apache_parquet_testing/contrib/arrow/cpp/submodules/parquet-testing	\
+		apache:arrow-testing:93f33ae:apache_arrow_testing/contrib/arrow/testing	\
+		hillbig:esaxx:ca7cb33:hillbig_esaxx/contrib/brotli/research/esaxx	\
+		y-256:libdivsufsort:5f60d6f:y_256_libdivsufsort/contrib/brotli/research/libdivsufsort	\
+		catchorg:Catch2:d2d8455:catchorg_Catch2/contrib/cppkafka/third_party/Catch2	\
+		c-ares:c-ares:e982924:c_ares_c_ares/contrib/grpc/third_party/cares/cares	\
+		boostorg:predef:560ff52:boostorg_predef/contrib/msgpack-c/external/boost/predef	\
+		boostorg:preprocessor:56090c5:boostorg_preprocessor/contrib/msgpack-c/external/boost/preprocessor	\
+		google:googletest:ba96d0b:google_googletest/contrib/rapidjson/thirdparty/gtest	\
+		google:benchmark:8982e1e:google_benchmark/contrib/simdjson/dependencies/benchmark	\
+		DaveGamble:cJSON:c69134d:DaveGamble_cJSON/contrib/simdjson/dependencies/cJSON	\
+		mikeando:fastjson:485f994:mikeando_fastjson/contrib/simdjson/dependencies/fastjson	\
+		vivkin:gason:7aee524:vivkin_gason/contrib/simdjson/dependencies/gason	\
+		zserge:jsmn:18e9fe4:zserge_jsmn/contrib/simdjson/dependencies/jsmn	\
+		nlohmann:json:a015b78:nlohmann_json/contrib/simdjson/dependencies/json	\
+		dropbox:json11:ec4e452:dropbox_json11/contrib/simdjson/dependencies/json11	\
+		open-source-parsers:jsoncpp:0c1cc6e:open_source_parsers_jsoncpp/contrib/simdjson/dependencies/jsoncpp	\
+		Tencent:rapidjson:b32cd94:Tencent_rapidjson/contrib/simdjson/dependencies/rapidjson	\
+		chadaustin:sajson:2dcfd35:chadaustin_sajson/contrib/simdjson/dependencies/sajson	\
+		esnme:ujson4c:e14f3fd:esnme_ujson4c/contrib/simdjson/dependencies/ujson4c	\
+		google:googletest:0a43962:google_googletest/contrib/simdjson/dependencies/rapidjson/thirdparty/gtest

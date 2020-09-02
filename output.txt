@@ -1,21 +1,23 @@
+Submodule 'contrib/AMQP-CPP' (https://github.com/CopernicaMarketingSoftware/AMQP-CPP.git) registered for path 'contrib/AMQP-CPP'
 Submodule 'contrib/arrow' (https://github.com/apache/arrow) registered for path 'contrib/arrow'
 Submodule 'contrib/avro' (https://github.com/ClickHouse-Extras/avro.git) registered for path 'contrib/avro'
 Submodule 'contrib/aws' (https://github.com/ClickHouse-Extras/aws-sdk-cpp.git) registered for path 'contrib/aws'
 Submodule 'aws-c-common' (https://github.com/ClickHouse-Extras/aws-c-common.git) registered for path 'contrib/aws-c-common'
 Submodule 'aws-c-event-stream' (https://github.com/ClickHouse-Extras/aws-c-event-stream.git) registered for path 'contrib/aws-c-event-stream'
 Submodule 'aws-checksums' (https://github.com/ClickHouse-Extras/aws-checksums.git) registered for path 'contrib/aws-checksums'
-Submodule 'contrib/base64' (https://github.com/powturbo/Turbo-Base64.git) registered for path 'contrib/base64'
+Submodule 'contrib/base64' (https://github.com/ClickHouse-Extras/Turbo-Base64.git) registered for path 'contrib/base64'
 Submodule 'contrib/boost' (https://github.com/ClickHouse-Extras/boost.git) registered for path 'contrib/boost'
 Submodule 'contrib/brotli' (https://github.com/google/brotli.git) registered for path 'contrib/brotli'
 Submodule 'contrib/capnproto' (https://github.com/capnproto/capnproto.git) registered for path 'contrib/capnproto'
 Submodule 'contrib/cassandra' (https://github.com/ClickHouse-Extras/cpp-driver.git) registered for path 'contrib/cassandra'
 Submodule 'contrib/cctz' (https://github.com/ClickHouse-Extras/cctz.git) registered for path 'contrib/cctz'
-Submodule 'contrib/cppkafka' (https://github.com/ClickHouse-Extras/cppkafka.git) registered for path 'contrib/cppkafka'
+Submodule 'contrib/cppkafka' (https://github.com/mfontanini/cppkafka.git) registered for path 'contrib/cppkafka'
 Submodule 'contrib/curl' (https://github.com/curl/curl.git) registered for path 'contrib/curl'
 Submodule 'contrib/double-conversion' (https://github.com/google/double-conversion.git) registered for path 'contrib/double-conversion'
 Submodule 'contrib/fastops' (https://github.com/ClickHouse-Extras/fastops) registered for path 'contrib/fastops'
 Submodule 'contrib/flatbuffers' (https://github.com/google/flatbuffers.git) registered for path 'contrib/flatbuffers'
 Submodule 'contrib/fmtlib' (https://github.com/fmtlib/fmt.git) registered for path 'contrib/fmtlib'
+Submodule 'contrib/gcem' (https://github.com/kthohr/gcem.git) registered for path 'contrib/gcem'
 Submodule 'contrib/googletest' (https://github.com/google/googletest.git) registered for path 'contrib/googletest'
 Submodule 'contrib/grpc' (https://github.com/ClickHouse-Extras/grpc.git) registered for path 'contrib/grpc'
 Submodule 'contrib/h3' (https://github.com/uber/h3) registered for path 'contrib/h3'
@@ -29,7 +31,7 @@ Submodule 'contrib/libcxx' (https://github.com/ClickHouse-Extras/libcxx.git) reg
 Submodule 'contrib/libcxxabi' (https://github.com/ClickHouse-Extras/libcxxabi.git) registered for path 'contrib/libcxxabi'
 Submodule 'contrib/libgsasl' (https://github.com/ClickHouse-Extras/libgsasl.git) registered for path 'contrib/libgsasl'
 Submodule 'contrib/libhdfs3' (https://github.com/ClickHouse-Extras/libhdfs3.git) registered for path 'contrib/libhdfs3'
-Submodule 'contrib/librdkafka' (https://github.com/edenhill/librdkafka.git) registered for path 'contrib/librdkafka'
+Submodule 'contrib/librdkafka' (https://github.com/ClickHouse-Extras/librdkafka.git) registered for path 'contrib/librdkafka'
 Submodule 'contrib/libunwind' (https://github.com/ClickHouse-Extras/libunwind.git) registered for path 'contrib/libunwind'
 Submodule 'contrib/libuv' (https://github.com/ClickHouse-Extras/libuv.git) registered for path 'contrib/libuv'
 Submodule 'contrib/libxml2' (https://github.com/GNOME/libxml2.git) registered for path 'contrib/libxml2'
@@ -40,19 +42,22 @@ Submodule 'contrib/msgpack-c' (https://github.com/msgpack/msgpack-c) registered 
 Submodule 'contrib/openldap' (https://github.com/openldap/openldap.git) registered for path 'contrib/openldap'
 Submodule 'contrib/openssl' (https://github.com/ClickHouse-Extras/openssl.git) registered for path 'contrib/openssl'
 Submodule 'contrib/orc' (https://github.com/apache/orc) registered for path 'contrib/orc'
-Submodule 'contrib/poco' (https://github.com/ClickHouse-Extras/poco) registered for path 'contrib/poco'
+Submodule 'contrib/poco' (https://github.com/ClickHouse-Extras/poco.git) registered for path 'contrib/poco'
 Submodule 'contrib/protobuf' (https://github.com/ClickHouse-Extras/protobuf.git) registered for path 'contrib/protobuf'
-Submodule 'contrib/rapidjson' (https://github.com/Tencent/rapidjson) registered for path 'contrib/rapidjson'
+Submodule 'contrib/rapidjson' (https://github.com/ClickHouse-Extras/rapidjson) registered for path 'contrib/rapidjson'
 Submodule 'contrib/re2' (https://github.com/google/re2.git) registered for path 'contrib/re2'
 Submodule 'contrib/replxx' (https://github.com/ClickHouse-Extras/replxx.git) registered for path 'contrib/replxx'
 Submodule 'contrib/ryu' (https://github.com/ClickHouse-Extras/ryu.git) registered for path 'contrib/ryu'
-Submodule 'contrib/simdjson' (https://github.com/lemire/simdjson.git) registered for path 'contrib/simdjson'
+Submodule 'contrib/sentry-native' (https://github.com/ClickHouse-Extras/sentry-native.git) registered for path 'contrib/sentry-native'
+Submodule 'contrib/simdjson' (https://github.com/ClickHouse-Extras/simdjson.git) registered for path 'contrib/simdjson'
 Submodule 'contrib/snappy' (https://github.com/google/snappy) registered for path 'contrib/snappy'
 Submodule 'contrib/sparsehash-c11' (https://github.com/sparsehash/sparsehash-c11.git) registered for path 'contrib/sparsehash-c11'
+Submodule 'contrib/stats' (https://github.com/kthohr/stats.git) registered for path 'contrib/stats'
 Submodule 'contrib/thrift' (https://github.com/apache/thrift.git) registered for path 'contrib/thrift'
 Submodule 'contrib/unixodbc' (https://github.com/ClickHouse-Extras/UnixODBC.git) registered for path 'contrib/unixodbc'
 Submodule 'contrib/zlib-ng' (https://github.com/ClickHouse-Extras/zlib-ng.git) registered for path 'contrib/zlib-ng'
 Submodule 'contrib/zstd' (https://github.com/facebook/zstd.git) registered for path 'contrib/zstd'
+Cloning into '/root/ClickHouse/contrib/AMQP-CPP'...
 Cloning into '/root/ClickHouse/contrib/arrow'...
 Cloning into '/root/ClickHouse/contrib/avro'...
 Cloning into '/root/ClickHouse/contrib/aws'...
@@ -71,6 +76,7 @@ Cloning into '/root/ClickHouse/contrib/double-conversion'...
 Cloning into '/root/ClickHouse/contrib/fastops'...
 Cloning into '/root/ClickHouse/contrib/flatbuffers'...
 Cloning into '/root/ClickHouse/contrib/fmtlib'...
+Cloning into '/root/ClickHouse/contrib/gcem'...
 Cloning into '/root/ClickHouse/contrib/googletest'...
 Cloning into '/root/ClickHouse/contrib/grpc'...
 Cloning into '/root/ClickHouse/contrib/h3'...
@@ -101,26 +107,29 @@ Cloning into '/root/ClickHouse/contrib/rapidjson'...
 Cloning into '/root/ClickHouse/contrib/re2'...
 Cloning into '/root/ClickHouse/contrib/replxx'...
 Cloning into '/root/ClickHouse/contrib/ryu'...
+Cloning into '/root/ClickHouse/contrib/sentry-native'...
 Cloning into '/root/ClickHouse/contrib/simdjson'...
 Cloning into '/root/ClickHouse/contrib/snappy'...
 Cloning into '/root/ClickHouse/contrib/sparsehash-c11'...
+Cloning into '/root/ClickHouse/contrib/stats'...
 Cloning into '/root/ClickHouse/contrib/thrift'...
 Cloning into '/root/ClickHouse/contrib/unixodbc'...
 Cloning into '/root/ClickHouse/contrib/zlib-ng'...
 Cloning into '/root/ClickHouse/contrib/zstd'...
-Submodule path 'contrib/arrow': checked out 'b789226ccb2124285792107c758bb3b40b3d082a'
+Submodule path 'contrib/AMQP-CPP': checked out '1c08399ab0ab9e4042ef8e2bbe9e208e5dcbc13b'
+Submodule path 'contrib/arrow': checked out '3cbcb7b62c2f2d02851bff837758637eb592a64b'
 Submodule 'cpp/submodules/parquet-testing' (https://github.com/apache/parquet-testing.git) registered for path 'contrib/arrow/cpp/submodules/parquet-testing'
 Submodule 'testing' (https://github.com/apache/arrow-testing) registered for path 'contrib/arrow/testing'
 Cloning into '/root/ClickHouse/contrib/arrow/cpp/submodules/parquet-testing'...
 Cloning into '/root/ClickHouse/contrib/arrow/testing'...
 Submodule path 'contrib/arrow/cpp/submodules/parquet-testing': checked out '46c9e977f58f6c5ef1b81f782f3746b3656e5a8c'
-Submodule path 'contrib/arrow/testing': checked out '93f33ae922226686e623d6b1d0307f48030a8a67'
-Submodule path 'contrib/avro': checked out '6cfcf6c24293af100d523b89b61d1ab216fa4735'
+Submodule path 'contrib/arrow/testing': checked out '3772a1b0ba8ae163b4ff4f17a0b8bd89a46a7660'
+Submodule path 'contrib/avro': checked out '92caca2d42fc9a97e34e95f963593539d32ed331'
 Submodule path 'contrib/aws': checked out '17e10c0fc77f22afe890fa6d1b283760e5edaa56'
 Submodule path 'contrib/aws-c-common': checked out '736a82d1697c108b04a277e66438a7f4e19b6857'
 Submodule path 'contrib/aws-c-event-stream': checked out '3bc33662f9ccff4f4cbcf9509cc78c26e022fde0'
 Submodule path 'contrib/aws-checksums': checked out '519d6d9093819b6cf89ffff589a27ef8f83d0f65'
-Submodule path 'contrib/base64': checked out '95ba56a9b041f9933f5cd2bbb2ee4e083468c20a'
+Submodule path 'contrib/base64': checked out 'af9b331f2b4f30b41c70f3a571ff904a8251c1d3'
 Submodule path 'contrib/boost': checked out 'a04e72c0464f0c31d3384f18f0c0db36a05538e0'
 Submodule path 'contrib/brotli': checked out '5805f99a533a8f8118699c0100d8c102f3605f65'
 Submodule 'research/esaxx' (https://github.com/hillbig/esaxx) registered for path 'contrib/brotli/research/esaxx'
@@ -132,16 +141,17 @@ Submodule path 'contrib/brotli/research/libdivsufsort': checked out '5f60d6f026c
 Submodule path 'contrib/capnproto': checked out 'a00ccd91b3746ef2ab51d40fe3265829949d1ace'
 Submodule path 'contrib/cassandra': checked out 'a49b4e0e2696a4b8ef286a5b9538d1cbe8490509'
 Submodule path 'contrib/cctz': checked out '7a2db4ece6e0f1b246173cbdb62711ae258ee841'
-Submodule path 'contrib/cppkafka': checked out 'f555ee36aaa74d17ca0dab3ce472070a610b2966'
+Submodule path 'contrib/cppkafka': checked out 'b06e64ef5bffd636d918a742c689f69130c1dbab'
 Submodule 'third_party/Catch2' (https://github.com/catchorg/Catch2.git) registered for path 'contrib/cppkafka/third_party/Catch2'
 Cloning into '/root/ClickHouse/contrib/cppkafka/third_party/Catch2'...
 Submodule path 'contrib/cppkafka/third_party/Catch2': checked out 'd2d8455b571b6c66c4b7003500a77f9a93ecdc28'
 Submodule path 'contrib/curl': checked out '3b8bbbbd1609c638a3d3d0acb148a33dedb67be3'
 Submodule path 'contrib/double-conversion': checked out 'cf2f0f3d547dc73b4612028a155b80536902ba02'
 Submodule path 'contrib/fastops': checked out '88752a5e03cf34639a4a37a4b41d8b463fffd2b5'
-Submodule path 'contrib/flatbuffers': checked out 'bf9eb67ab9371755c6bcece13cadc7693bcbf264'
-Submodule path 'contrib/fmtlib': checked out '297c3b2ed551a4989826fc8c4780bf533e964bd9'
-Submodule path 'contrib/googletest': checked out '703bd9caab50b139428cea1aaff9974ebee5742e'
+Submodule path 'contrib/flatbuffers': checked out '6df40a2471737b27271bdd9b900ab5f3aec746c7'
+Submodule path 'contrib/fmtlib': checked out 'c108ee1d590089ccf642fc85652b845924067af2'
+Submodule path 'contrib/gcem': checked out '8d4f1b5d76ea8f6ff12f3f4f34cda45424556b00'
+Submodule path 'contrib/googletest': checked out '356f2d264a485db2fcc50ec1c672e0d37b6cb39b'
 Submodule path 'contrib/grpc': checked out '8aea4e168e78f3eb9828080740fc8cb73d53bf79'
 Submodule 'third_party/cares/cares' (https://github.com/c-ares/c-ares.git) registered for path 'contrib/grpc/third_party/cares/cares'
 Cloning into '/root/ClickHouse/contrib/grpc/third_party/cares/cares'...
@@ -156,8 +166,8 @@ Submodule path 'contrib/libcpuid': checked out '8db3b8d2d32d22437f063ce692a1b9bb
 Submodule path 'contrib/libcxx': checked out '9f71e122533c43298c2892108904bb942b0d840f'
 Submodule path 'contrib/libcxxabi': checked out '1ebc83af4c06dbcd56b4d166c1314a7d4c1173f9'
 Submodule path 'contrib/libgsasl': checked out '140fb58250588c8323285b75fcf127c4adc33dfa'
-Submodule path 'contrib/libhdfs3': checked out 'e2131aa752d7e95441e08f9a18304c1445f2576a'
-Submodule path 'contrib/librdkafka': checked out 'b0d91bd74abb5f0e1ee972d326a317ad610f6300'
+Submodule path 'contrib/libhdfs3': checked out '1b666578c85094306b061352078022f6350bfab8'
+Submodule path 'contrib/librdkafka': checked out '2090cbf56b715247ec2be7f768707a7ab1bf7ede'
 Submodule path 'contrib/libunwind': checked out '27026ef4a9c6c8cc956d1d131c4d794e24096981'
 Submodule path 'contrib/libuv': checked out '84438304f41d8ea6670ee5409f4d6c63ca784f28'
 Submodule path 'contrib/libxml2': checked out '18890f471c420411aa3c989e104d090966ec9dbf'
@@ -174,54 +184,23 @@ Submodule path 'contrib/msgpack-c/external/boost/preprocessor': checked out '560
 Submodule path 'contrib/openldap': checked out '34b9ba94b30319ed6389a4e001d057f7983fe363'
 Submodule path 'contrib/openssl': checked out '07e9623064508d15dd61367f960ebe7fc9aecd77'
 Submodule path 'contrib/orc': checked out '5981208e39447df84827f6a961d1da76bacb6078'
-Submodule path 'contrib/poco': checked out 'be2ab90ba5dccd46919a116e3fe4fa77bb85063b'
+Submodule path 'contrib/poco': checked out '74c93443342f6028fa6402057684733b316aa737'
 Submodule path 'contrib/protobuf': checked out 'd6a10dd3db55d8f7f9e464db9151874cde1f79ec'
-Submodule path 'contrib/rapidjson': checked out '8f4c021fa2f1e001d2376095928fc0532adf2ae6'
+Submodule path 'contrib/rapidjson': checked out 'c4ef90ccdbc21d5d5a628d08316bfd301e32d6fa'
 Submodule 'thirdparty/gtest' (https://github.com/google/googletest.git) registered for path 'contrib/rapidjson/thirdparty/gtest'
 Cloning into '/root/ClickHouse/contrib/rapidjson/thirdparty/gtest'...
 Submodule path 'contrib/rapidjson/thirdparty/gtest': checked out 'ba96d0b1161f540656efdaed035b3c062b60e006'
 Submodule path 'contrib/re2': checked out '7cf8b88e8f70f97fd4926b56aa87e7f53b2717e0'
-Submodule path 'contrib/replxx': checked out '2d37daaad24be71e76514a36b0a47120be2f9086'
+Submodule path 'contrib/replxx': checked out '94b1f568d16183214d26c7c0e9ce69a4ce407f65'
 Submodule path 'contrib/ryu': checked out '5b4a853534b47438b4d97935370f6b2397137c2b'
-Submodule path 'contrib/simdjson': checked out '560f0742cc0895d00d78359dbdeb82064a24adb8'
-Submodule 'dependencies/benchmark' (https://github.com/google/benchmark.git) registered for path 'contrib/simdjson/dependencies/benchmark'
-Submodule 'dependencies/cJSON' (https://github.com/DaveGamble/cJSON.git) registered for path 'contrib/simdjson/dependencies/cJSON'
-Submodule 'dependencies/fastjson' (https://github.com/mikeando/fastjson.git) registered for path 'contrib/simdjson/dependencies/fastjson'
-Submodule 'dependencies/gason' (https://github.com/vivkin/gason.git) registered for path 'contrib/simdjson/dependencies/gason'
-Submodule 'dependencies/jsmn' (https://github.com/zserge/jsmn.git) registered for path 'contrib/simdjson/dependencies/jsmn'
-Submodule 'dependencies/json' (https://github.com/nlohmann/json.git) registered for path 'contrib/simdjson/dependencies/json'
-Submodule 'dependencies/json11' (https://github.com/dropbox/json11.git) registered for path 'contrib/simdjson/dependencies/json11'
-Submodule 'dependencies/jsoncpp' (https://github.com/open-source-parsers/jsoncpp.git) registered for path 'contrib/simdjson/dependencies/jsoncpp'
-Submodule 'scalarvssimd/rapidjson' (https://github.com/Tencent/rapidjson.git) registered for path 'contrib/simdjson/dependencies/rapidjson'
-Submodule 'dependencies/sajson' (https://github.com/chadaustin/sajson.git) registered for path 'contrib/simdjson/dependencies/sajson'
-Submodule 'dependencies/ujson4c' (https://github.com/esnme/ujson4c.git) registered for path 'contrib/simdjson/dependencies/ujson4c'
-Cloning into '/root/ClickHouse/contrib/simdjson/dependencies/benchmark'...
-Cloning into '/root/ClickHouse/contrib/simdjson/dependencies/cJSON'...
-Cloning into '/root/ClickHouse/contrib/simdjson/dependencies/fastjson'...
-Cloning into '/root/ClickHouse/contrib/simdjson/dependencies/gason'...
-Cloning into '/root/ClickHouse/contrib/simdjson/dependencies/jsmn'...
-Cloning into '/root/ClickHouse/contrib/simdjson/dependencies/json'...
-Cloning into '/root/ClickHouse/contrib/simdjson/dependencies/json11'...
-Cloning into '/root/ClickHouse/contrib/simdjson/dependencies/jsoncpp'...
-Cloning into '/root/ClickHouse/contrib/simdjson/dependencies/rapidjson'...
-Cloning into '/root/ClickHouse/contrib/simdjson/dependencies/sajson'...
-Cloning into '/root/ClickHouse/contrib/simdjson/dependencies/ujson4c'...
-Submodule path 'contrib/simdjson/dependencies/benchmark': checked out '8982e1ee6aef31e48170400b7d1dc9969b156e5e'
-Submodule path 'contrib/simdjson/dependencies/cJSON': checked out 'c69134d01746dcf551dd7724b4edb12f922eb0d1'
-Submodule path 'contrib/simdjson/dependencies/fastjson': checked out '485f994a61a64ac73fa6a40d4d639b99b463563b'
-Submodule path 'contrib/simdjson/dependencies/gason': checked out '7aee524189da1c1ecd19f67981e3d903dae25470'
-Submodule path 'contrib/simdjson/dependencies/jsmn': checked out '18e9fe42cbfe21d65076f5c77ae2be379ad1270f'
-Submodule path 'contrib/simdjson/dependencies/json': checked out 'a015b78e81c859b88840cb0cd4001ce1fe5e7865'
-Submodule path 'contrib/simdjson/dependencies/json11': checked out 'ec4e45219af1d7cde3d58b49ed762376fccf1ace'
-Submodule path 'contrib/simdjson/dependencies/jsoncpp': checked out '0c1cc6e1a373dc58e2599ec7dd68b2e6b863990a'
-Submodule path 'contrib/simdjson/dependencies/rapidjson': checked out 'b32cd9421c5e3cbe183a99b6537ce11441e50656'
-Submodule 'thirdparty/gtest' (https://github.com/google/googletest.git) registered for path 'contrib/simdjson/dependencies/rapidjson/thirdparty/gtest'
-Cloning into '/root/ClickHouse/contrib/simdjson/dependencies/rapidjson/thirdparty/gtest'...
-Submodule path 'contrib/simdjson/dependencies/rapidjson/thirdparty/gtest': checked out '0a439623f75c029912728d80cb7f1b8b48739ca4'
-Submodule path 'contrib/simdjson/dependencies/sajson': checked out '2dcfd350586375f9910f74821d4f07d67ae455ba'
-Submodule path 'contrib/simdjson/dependencies/ujson4c': checked out 'e14f3fd5207fe30d1bdea723f260609e69d1abfa'
+Submodule path 'contrib/sentry-native': checked out '94644e92f0a3ff14bd35ed902a8622a2d15f7be4'
+Submodule path 'contrib/simdjson': checked out '3190d66a49059092a1753dc35595923debfc1698'
+Submodule 'dependencies/cxxopts' (https://github.com/jarro2783/cxxopts) registered for path 'contrib/simdjson/dependencies/cxxopts'
+Cloning into '/root/ClickHouse/contrib/simdjson/dependencies/cxxopts'...
+Submodule path 'contrib/simdjson/dependencies/cxxopts': checked out '794c975287355de48158d9a80ed502d26b20a472'
 Submodule path 'contrib/snappy': checked out '3f194acb57e0487531c96b97af61dcbd025a78a3'
 Submodule path 'contrib/sparsehash-c11': checked out 'cf0bffaa456f23bc4174462a789b90f8b6f5f42f'
+Submodule path 'contrib/stats': checked out 'b6dd459c10a88c7ea04693c007e9e35820c5d9ad'
 Submodule path 'contrib/thrift': checked out '010ccf0a0c7023fea0f6bf4e4078ebdff7e61982'
 Submodule path 'contrib/unixodbc': checked out 'b0ad30f7f6289c12b76f04bfb9d466374bb32168'
 Submodule path 'contrib/zlib-ng': checked out 'bba56a73be249514acfbc7d49aa2a68994dad8ab'

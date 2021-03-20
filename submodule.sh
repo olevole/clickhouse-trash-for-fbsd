@@ -37,7 +37,8 @@ sqllistdelimer=" "
 submod=0
 
 # first loop: get all submodules and path
-grep "^Submodule '" output.txt | egrep '(||)'| grep "registered for path" | tr -d "'()" | while read _line; do
+#grep "^Submodule '" output.txt | egrep '(||)'| grep "registered for path" | tr -d "'()" | while read _line; do
+grep "^Submodule '" output.txt | egrep '()'| grep "registered for path" | tr -d "'()" | while read _line; do
 	# sample line
 	# Submodule 'thirdparty/gtest' (https://github.com/google/googletest.git) registered for path 'contrib/simdjson/dependencies/rapidjson/thirdparty/gtest'
 	sqllist "${_line}" nop name url nop nop nop path
